@@ -16,6 +16,12 @@ Route::get('/', function () {
 });
 
 
+<<<<<<< HEAD
+Route::get('/manel', function () {
+    return view('manel');
+});
+=======
 Route::get('/sergi', function () {
     return view('sergi');
 });
+>>>>>>> upstream/master
