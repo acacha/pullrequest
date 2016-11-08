@@ -186,8 +186,11 @@ return [
         Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+<<<<<<< HEAD
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+=======
+>>>>>>> upstream/master
         #llum_providers
 
     ],
@@ -245,7 +248,10 @@ return [
          */
         'AdminLTE' => Acacha\AdminLTETemplateLaravel\Facades\AdminLTE::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+<<<<<<< HEAD
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+=======
+>>>>>>> upstream/master
         #llum_aliases
 
     ],
