@@ -42,7 +42,8 @@
                     <li><a href="#">{{ trans('adminlte_lang::message.linklevel2') }}</a></li>
                 </ul>
             </li>
-            <li class="active"><a href="{{ url('francauxach') }}"><i class='fa fa-link'></i> <span>Franc Auxach</span></a></li>
+            <li><a href="{{ url('francauxach') }}"><i class='fa fa-link'></i> <span>Franc Auxach</span></a></li>
+            <li><a href="{{ url('sergi') }}"><i class='fa fa-link'></i> <span>Sergi Tur</span></a></li>
         </ul><!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
