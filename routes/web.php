@@ -16,4 +16,6 @@ Route::get('/', function () {
 });
 
 
-
+Route::get('/oscar', function () {
+    return view('oscar');
+});
