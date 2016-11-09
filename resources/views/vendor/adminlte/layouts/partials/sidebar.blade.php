@@ -44,6 +44,7 @@
             </li>
             <li><a href="{{ url('francauxach') }}"><i class='fa fa-link'></i> <span>Franc Auxach</span></a></li>
             <li><a href="{{ url('sergi') }}"><i class='fa fa-link'></i> <span>Sergi Tur</span></a></li>
+            <li><a href="{{ url('manel') }}"><i class='fa fa-link'></i> <span>Manel Gavaldà</span></a></li>
         </ul><!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
