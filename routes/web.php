@@ -22,3 +22,8 @@ Route::get('/francauxach', function () {
 Route::get('/sergi', function () {
     return view('sergi');
 });
+Route::get('/manel', function () {
+    return view('manel');
+});
+
+
