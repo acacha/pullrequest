@@ -26,3 +26,8 @@ Route::get('/sergi', function () {
 Route::get('/davidmartinez', function () {
     return view('davidmartinez');
 });
+
+Route::get('/manelgavalda', function () {
+    return view('manelgavalda');
+});
+
