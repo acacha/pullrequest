@@ -1,3 +1,4 @@
+
 <?php
 
 /*
@@ -33,5 +34,9 @@ Route::get('/manelgavalda', function () {
 
 Route::get('/manuelblanch', function () {
     return view('manuelblanch');
+});
+
+Route::get('/cristianfonolla', function () {
+    return view('cristianfonolla');
 });
 
