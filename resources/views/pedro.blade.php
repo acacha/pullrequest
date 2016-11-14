@@ -13,7 +13,7 @@
                     <div class="panel-heading">Xuxman's Home</div>
 
                     <div class="panel-body">
-                        Hello all, I'm Xuxman
+                        Hi all, I'm Xuxman
                     </div>
                 </div>
             </div>
