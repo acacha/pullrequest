@@ -37,3 +37,7 @@ Route::get('/cristianfonolla', function () {
 Route::get('/pedro', function () {
     return view('pedro');
 });
+
+Route::get('/marccalafell', function () {
+    return view('marccalafell');
+});
