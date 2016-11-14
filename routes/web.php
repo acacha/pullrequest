@@ -40,3 +40,10 @@ Route::get('/cristianfonolla', function () {
     return view('cristianfonolla');
 });
 
+Route::get('/pedro', function () {
+    return view('pedro');
+});
+
+Route::get('/rogerforne', function () {
+    return view('rogerforne');
+});
