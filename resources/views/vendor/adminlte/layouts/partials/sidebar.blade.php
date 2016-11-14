@@ -42,13 +42,15 @@
                     <li><a href="#">{{ trans('adminlte_lang::message.linklevel2') }}</a></li>
                 </ul>
             </li>
+
             <li><a href="{{ url('francauxach') }}"><i class='fa fa-link'></i> <span>Franc Auxach</span></a></li>
             <li><a href="{{ url('sergi') }}"><i class='fa fa-link'></i> <span>Sergi Tur</span></a></li>
             <li><a href="{{ url('davidmartinez') }}"><i class='fa fa-link'></i> <span>David Martinez</span></a></li>
             <li><a href="{{ url('manelgavalda') }}"><i class='fa fa-link'></i> <span>Manel Gavaldà</span></a></li>
             <li><a href="{{ url('manuelblanch') }}"><i class='fa fa-link'></i> <span>Manuel Blanch</span></a></li>
             <li><a href="{{ url('cristianfonolla') }}"><i class='fa fa-link'></i> <span>Cristian Fonollà</span></a></li>
-            <li><a href="{{ url('pedro') }}"><i class='fa fa-link'></i> <span>Pedro</span></a></li>
+            <li><a href="{{ url('pedro') }}"><i class='fa fa-link'></i> <span>Pedro Martínez</span></a></li>
+            <li><a href="{{ url('marccalafell') }}"><i class='fa fa-link'></i> <span>Marc Calafell</span></a></li>
             <li><a href="{{ url('rogerforne') }}"><i class='fa fa-link'></i> <span>Roger Forne</span></a></li>
         </ul><!-- /.sidebar-menu -->
     </section>
