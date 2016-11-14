@@ -31,3 +31,7 @@ Route::get('/manelgavalda', function () {
     return view('manelgavalda');
 });
 
+Route::get('/manuelblanch', function () {
+    return view('manuelblanch');
+});
+
