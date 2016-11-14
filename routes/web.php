@@ -33,6 +33,7 @@ Route::get('/manuelblanch', function () {
 Route::get('/cristianfonolla', function () {
     return view('cristianfonolla');
 });
+
 Route::get('/pedro', function () {
     return view('pedro');
 });
