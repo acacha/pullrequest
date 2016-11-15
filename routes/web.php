@@ -41,3 +41,7 @@ Route::get('/pedro', function () {
 Route::get('/marccalafell', function () {
     return view('marccalafell');
 });
+
+Route::get('/rogerforne', function () {
+    return view('rogerforne');
+});
