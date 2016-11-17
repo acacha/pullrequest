@@ -16,13 +16,13 @@
                     <a href="#"><i class="fa fa-circle text-success"></i> {{ trans('adminlte_lang::message.online') }}</a>
                 </div>
             </div>
-        @endif
+    @endif
 
-        <!-- search form (Optional) -->
+    <!-- search form (Optional) -->
         <form action="#" method="get" class="sidebar-form">
             <div class="input-group">
                 <input type="text" name="q" class="form-control" placeholder="{{ trans('adminlte_lang::message.search') }}..."/>
-              <span class="input-group-btn">
+                <span class="input-group-btn">
                 <button type='submit' name='search' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
               </span>
             </div>
@@ -34,7 +34,24 @@
             <li class="header">{{ trans('adminlte_lang::message.header') }}</li>
             <!-- Optionally, you can add icons to the links -->
             <li class="active"><a href="{{ url('home') }}"><i class='fa fa-link'></i> <span>{{ trans('adminlte_lang::message.home') }}</span></a></li>
-            <li class="active"><a href="{{ url('oscar') }}"><i class='fa fa-link'></i> <span>Oscar</span></a></li>
+            <li><a href="#"><i class='fa fa-link'></i> <span>{{ trans('adminlte_lang::message.anotherlink') }}</span></a></li>
+            <li class="treeview">
+                <a href="#"><i class='fa fa-link'></i> <span>{{ trans('adminlte_lang::message.multilevel') }}</span> <i class="fa fa-angle-left pull-right"></i></a>
+                <ul class="treeview-menu">
+                    <li><a href="#">{{ trans('adminlte_lang::message.linklevel2') }}</a></li>
+                    <li><a href="#">{{ trans('adminlte_lang::message.linklevel2') }}</a></li>
+                </ul>
+            </li>
+
+            <li><a href="{{ url('francauxach') }}"><i class='fa fa-link'></i> <span>Franc Auxach</span></a></li>
+            <li><a href="{{ url('sergi') }}"><i class='fa fa-link'></i> <span>Sergi Tur</span></a></li>
+            <li><a href="{{ url('davidmartinez') }}"><i class='fa fa-link'></i> <span>David Martinez</span></a></li>
+            <li><a href="{{ url('manelgavalda') }}"><i class='fa fa-link'></i> <span>Manel Gavaldà</span></a></li>
+            <li><a href="{{ url('manuelblanch') }}"><i class='fa fa-link'></i> <span>Manuel Blanch</span></a></li>
+            <li><a href="{{ url('cristianfonolla') }}"><i class='fa fa-link'></i> <span>Cristian Fonollà</span></a></li>
+            <li><a href="{{ url('pedro') }}"><i class='fa fa-link'></i> <span>Pedro Martínez</span></a></li>
+            <li><a href="{{ url('marccalafell') }}"><i class='fa fa-link'></i> <span>Marc Calafell</span></a></li>
+            <li><a href="{{ url('rogerforne') }}"><i class='fa fa-link'></i> <span>Roger Forne</span></a></li>
         </ul><!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
