@@ -52,6 +52,7 @@
             <li><a href="{{ url('pedro') }}"><i class='fa fa-link'></i> <span>Pedro Martínez</span></a></li>
             <li><a href="{{ url('marccalafell') }}"><i class='fa fa-link'></i> <span>Marc Calafell</span></a></li>
             <li><a href="{{ url('rogerforne') }}"><i class='fa fa-link'></i> <span>Roger Forne</span></a></li>
+            <li><a href="{{ url('oscar') }}"><i class='fa fa-link'></i> <span>Oscar Duran</span></a></li>
         </ul><!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->
