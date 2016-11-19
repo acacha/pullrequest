@@ -1,7 +1,7 @@
 @extends('adminlte::layouts.app')
 
 @section('htmlheader_title')
-    Pàgina de sergi
+    {{ trans('adminlte_lang::message.home') }}
 @endsection
 
 
@@ -10,10 +10,10 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="panel panel-default">
-                    <div class="panel-heading">Pàgina de sergi</div>
+                    <div class="panel-heading">Home</div>
 
                     <div class="panel-body">
-                        Hola que tal! Soc Sergi
+                        Oscar Duran!! HI! :)!
                     </div>
                 </div>
             </div>

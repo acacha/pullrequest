@@ -15,6 +15,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/francauxach', function () {
     return view('francauxach');
 });
@@ -44,4 +45,8 @@ Route::get('/marccalafell', function () {
 
 Route::get('/rogerforne', function () {
     return view('rogerforne');
+});
+
+Route::get('/oscar', function () {
+    return view('oscar');
 });
